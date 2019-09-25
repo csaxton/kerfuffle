@@ -1,6 +1,6 @@
 # kerfuffle
 
-[![CircleCI](https://circleci.com/gh/csaxton/kerfuffle.svg?style=svg)](https://circleci.com/gh/csaxton/kerfuffle) [Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![CircleCI](https://circleci.com/gh/csaxton/kerfuffle.svg?style=svg)](https://circleci.com/gh/csaxton/kerfuffle) [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 a little tool that allows you to create random churn in a local repository.
 
@@ -20,7 +20,11 @@ you can generate and customise 'churn plans' that effectively describe the alter
 kerfuffle plan . > .my-first-changes.json
 ```
 
-generate as many of these plans as you'd like. when you are ready to affect the changes run:
+generate as many of these plans as you'd like and modify their contents should you wish for something less random
+
+## apply change/churn plans
+
+when you are ready to affect the changes run:
 
 ```bash
 kerfuffle apply . --plan .myfirst-changes.json
