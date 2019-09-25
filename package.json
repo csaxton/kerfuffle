@@ -1,0 +1,17 @@
+{
+  "name": "kerfuffle",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Craig Saxton <ss639901@hotmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "chance": "^1.1.0",
+    "fs-extra": "^8.1.0",
+    "glob": "^7.1.4",
+    "klaw-sync": "^6.0.0",
+    "yargs": "^14.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
+}
