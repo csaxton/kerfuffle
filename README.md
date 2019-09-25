@@ -1,5 +1,7 @@
 # kerfuffle
 
+[![CircleCI](https://circleci.com/gh/csaxton/kerfuffle.svg?style=svg)](https://circleci.com/gh/csaxton/kerfuffle) [Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+
 a little tool that allows you to create random churn in a local repository.
 
 need to practice working with gitflow repositories and/or mono repos? this allows you to practice the management tasks
