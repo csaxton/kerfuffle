@@ -1,14 +1,22 @@
 {
-  "name": "kerfuffle",
+  "name": "@muppets/kerfuffle",
   "version": "1.0.0",
+  "description": "generates random churn in a repository",
   "main": "index.js",
   "author": "Craig Saxton <ss639901@hotmail.com>",
   "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "bin": {
+    "kerfuffle": "lib/cli"
+  },
   "dependencies": {
     "chance": "^1.1.0",
     "fs-extra": "^8.1.0",
     "glob": "^7.1.4",
     "klaw-sync": "^6.0.0",
+    "nodegit": "^0.26.1",
     "yargs": "^14.0.0"
   },
   "devDependencies": {
