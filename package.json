@@ -1,12 +1,15 @@
 {
   "name": "@muppets/kerfuffle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "generates random churn in a repository",
   "main": "index.js",
   "author": "Craig Saxton <ss639901@hotmail.com>",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
+  },
+  "scripts": {
+    "test": "jest"
   },
   "bin": {
     "kerfuffle": "lib/cli"
@@ -20,6 +23,7 @@
     "yargs": "^14.0.0"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^1.18.2",
+    "jest": "^24.9.0"
   }
 }
