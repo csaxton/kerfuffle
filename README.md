@@ -17,7 +17,7 @@ install the tool right into your practice repository
 you can generate and customise 'churn plans' that effectively describe the alterations that will be performed against your repository
 
 ```bash
-kerfuffle plan . > .my-first-changes.json
+yarn kerfuffle plan . > .my-first-changes.json
 ```
 
 generate as many of these plans as you'd like and modify their contents should you wish for something less random
@@ -27,7 +27,7 @@ generate as many of these plans as you'd like and modify their contents should y
 when you are ready to affect the changes run:
 
 ```bash
-kerfuffle apply . --plan .myfirst-changes.json
+yarn kerfuffle apply . --plan .myfirst-changes.json
 ```
 
 when done, push your branches up to the origin; create pull requests and do your thing
